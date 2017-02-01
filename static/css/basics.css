@@ -1,0 +1,266 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.top {
+    padding:45px 0 70px;
+}
+
+.logo a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#333;
+    font-size:38px;
+}
+
+.logo, .logo a, .logo span {
+    text-align: center;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+input,textarea,select,option {
+    font-family: 'Roboto', sans-serif;
+    font-size:12px;
+}
+ul {list-style: none; margin:0; padding:0;}
+
+
+.header {
+    height:90px;
+    margin:0 0 0;
+    /*background-color: #0099cc;*/
+    color:white;
+    margin:0 0 20px;
+}
+
+.header .container {
+    padding:40px 0 0;
+}
+
+.container {
+    
+}
+
+.container {
+    width:770px;
+    margin:0 auto 20px;
+    height:auto;
+}
+
+a {
+    color:#158ec2;
+    text-decoration: none;
+}
+
+
+.container p {
+    
+
+    line-height:1.45em;
+    font-size:14px;
+    margin:0 0 22px;
+
+}
+
+/**
+    sections
+*/
+
+.section1 {
+    
+}
+
+
+.modal_gobo {
+    position: fixed;
+    height:100%;
+    width:100%;
+    background-color:rgba(0,0,0,0.5);
+    top:0;
+    left:0;
+}
+
+.buy_modal_inner {
+    position: absolute;
+    left:50%;
+    top:40%;
+    width:420px;
+    height:300px;
+    margin-left:-210px;
+    margin-top:-150px;
+    background-color:white;
+}
+
+.small_circle {
+    border-radius: 50%;
+    width:10px;
+    height:10px;
+    border:1px solid #ccc;
+}
+
+.carousel_selectors {
+    list-style: none;
+    clear:both;
+    float:none;
+    height:auto;
+    margin:10px 0;
+    width:200px;
+    margin-left:79px;
+
+}
+.carousel_selectors li {
+    float:left;
+    margin-right:6px;
+    cursor:pointer;
+}
+.carousel_holder {
+    float:none;
+    clear:both;
+    /*height:auto;*/
+    position: relative;
+    overflow:hidden;
+    height:380px;
+
+}
+
+.carousel_holder img {
+    display:block;
+    position: absolute;
+    top:0;
+    left:0;
+    cursor:pointer;
+    border:10px solid blue;
+    padding:5px;
+}
+
+.image_carousel_box {
+    position: relative;
+    width:300px;
+}
+
+.clear {
+    float:none;
+    clear:both;
+    height:auto;
+}
+
+.small_circle.selected {
+    background-color: #ccc;
+}
+
+
+
+
+
+h1 {
+    font-family: 'Allerta Stencil', sans-serif;
+    text-transform: uppercase;
+    font-size:24px;
+    font-weight: normal;
+    margin:0 0 18px;
+}
+h3 {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size:14px;
+
+}
+
+
+
+
+.col_right {
+    /*width:250px;*/
+    float:right;
+
+}
+
+.col_left {
+    width:420px;
+    text-align: right;
+}
+.col_left p {
+    line-height:1.45em;
+    font-size:14px;
+    margin:0 0 22px;
+}
+
+img.art_border {
+    display:block;
+}
+.artist_copyright {
+    font-size:11px;
+    color:#555;
+    float:right;
+    margin:5px 12px 0 0;
+}
+
+.img_box {
+    border:10px solid blue;
+    padding:5px;
+    
+    margin:0;
+    
+}
+
+.about_img_box {
+    /*border:10px solid transparent;*/
+    /*padding:5px;*/
+    
+    margin:0 10px 0 0;
+    
+}
+
+
+
+.middle {
+    margin:0 0 100px;
+}
+
+
+.footer_col_1, .footer_col_2, .footer_col_3 {
+    width:240px;
+    float:left;
+}
+.footer_col_1, .footer_col_2 {
+    margin-right: 20px;
+}
+
+
+.footer {
+    min-height: 200px;
+    padding:50px 0 90px;
+    background-color: #fafafa;
+    clear:both;
+    float:none;
+}
+.footer ul {
+    font-size:12px;
+}
+.footer ul a {
+    color:#666;
+    text-decoration: none;
+}
+.footer ul a:hover {
+    color:#222;
+}
+.footer ul li {
+    margin:4px 0 8px;
+}
+
+.footer h3 {
+    margin:0 0 18px;
+}
+
+
+
+
+
+
+.price {
+    font-size:14px;
+    margin:0 0 9px;
+}

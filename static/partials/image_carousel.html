@@ -1,0 +1,13 @@
+<div class="image_carousel_box">
+    <div class="carousel_holder">
+    <% _.each(data.pics, function(item) { %>
+        <img src="<%- item %>" class="carousel_item" style="display:none;" />
+    <% }); %>
+    </div>
+    <ul class="carousel_selectors">
+    <% _.each(data.pics, function(item) { %>
+        <li class="small_circle empty_circle"></li>
+    <% }); %>
+    </ul>
+    <div class="clear"></div>
+</div>
